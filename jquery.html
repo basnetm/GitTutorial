@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <title>Document</title>
+    <style>
+        #circle{
+            width: 200px;
+            height: 200px;
+            background: hsl(144, 82%, 47%);
+            border-radius: 50%;
+        }
+        #square{
+            width: 200px;
+            height: 200px;
+            background: hsl(144, 82%, 47%);
+            border-radius: 10%;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="circle"></div>
+    <div id="rectangle"></div>
+    <div id="square"></div>
+    <p>my name is manoj basnet</p>
+
+    <script>
+        $("#circle").click(function(){
+alert("you press a circle")
+        });
+       // $("#square").hover(function(){
+           // alert("you press a circle")
+                  //  });
+                    $("#square").click(function(){
+                        $("#square").css("background","purple");
+                                });
+
+
+
+                    $("p").click(function(){
+$("p").html("i read in class 16")
+                    });
+
+    </script>
+</body>
+</html>
