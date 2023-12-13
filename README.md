@@ -11,3 +11,6 @@
 7. git remote add origin remote-repo-address(**Adding-origin-remote-reposiotry-address**)
 8. git push -u origin main (**push -to-remote-origin**)
 
+### git commands
+1. git checkout -b branchname (**Creating-and-shifting-into-new-branch**)
+
